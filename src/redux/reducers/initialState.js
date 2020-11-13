@@ -1,3 +1,4 @@
-export default  {
-    currentCategory:{}
+const tempName = {
+    currentCategory:{categoryName:'Beverages'}  
 }
+export default tempName;
