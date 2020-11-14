@@ -1,4 +1,5 @@
 const tempName = {
-    currentCategory:{categoryName:'Beverages'}  
+    currentCategory:{categoryName:'Beverages'},
+    categories:[] 
 }
 export default tempName;
