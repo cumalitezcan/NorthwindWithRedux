@@ -1,5 +1,6 @@
 const tempName = {
     currentCategory:{},
-    categories:[] 
+    categories:[],
+    products:[]
 }
 export default tempName;
