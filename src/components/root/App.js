@@ -5,6 +5,7 @@ import Navi from '../navi/Navi'
 import { Switch } from 'react-router-dom';
 import {Route} from 'react-router-dom'
 import CartDetail from '../cart/CartDetail';
+import AddOrUpdateProduct from '../products/AddOrUpdateProduct';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={Dashboard} /> 
         <Route path="/product" exact component={Dashboard} /> 
+        <Route path="/saveproduct/:productId" exact component={AddOrUpdateProduct} /> 
         <Route path="/cart" exact component={CartDetail} /> 
       </Switch>
       

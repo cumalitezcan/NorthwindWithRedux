@@ -31,7 +31,6 @@ class CategoryList extends Component {
                     }
 
                 </ListGroup>
-                <h5>Seçili Kategori: {this.props.currentCategory.categoryName}</h5>
             </div>
         )
     }
