@@ -26,7 +26,7 @@ const ProductDetail = ({
 
             <TextInput name="unitPrice" label="Unit Price" value={product.unitPrice} onChange={onChange} error="Hata" />
             <TextInput name="quantityPerUnit" label="quantityPerUnit" value={product.quantityPerUnit} onChange={onChange} error="Hata" />
-            <TextInput name="unitInStock" label="unitInStock" value={product.unitInStock} onChange={onChange} error="Hata" />
+            <TextInput name="unitsInStock" label="unitsInStock" value={product.unitsInStock} onChange={onChange} error="Hata" />
 
             <button type="submit" className="btn btn-success">Kaydet</button>
 
